@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
+import emailjs from '@emailjs/browser'
 import { HiOutlineMail } from 'react-icons/hi'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICEID, process.env.REACT_APP_EMAILJS_TEMPLATEID, form.current, process.env.REACT_APP_EMAILJS_KEY)
+      .then(() => {
+          e.target.reset();
+      });
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -17,7 +29,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="text" name="email" placeholder="Your Email" required />
           <textarea name="message" id="" rows="7" placeholder="Your Message" required></textarea>
