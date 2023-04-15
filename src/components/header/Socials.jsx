@@ -1,5 +1,5 @@
-import React from 'react'
-import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import React from "react"
+import { BsLinkedin, BsGithub } from "react-icons/bs"
 
 const Socials = () => {
   return (

@@ -1,7 +1,7 @@
-import React, { useRef } from 'react'
-import './contact.css'
-import emailjs from '@emailjs/browser'
-import { HiOutlineMail } from 'react-icons/hi'
+import React, { useRef } from "react"
+import "./contact.css"
+import emailjs from "@emailjs/browser"
+import { HiOutlineMail } from "react-icons/hi"
 
 const Contact = () => {
   const form = useRef();
@@ -26,6 +26,12 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>seanrmcgovern@gmail.com</h5>
             <a href="mailto:seanrmcgovern@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
+          </article>
+          <article>
+            <p>
+              Although I may not be actively pursuing new opportunities, my inbox is always open. 
+              I will do my best to get back to you!
+            </p>
           </article>
         </div>
 

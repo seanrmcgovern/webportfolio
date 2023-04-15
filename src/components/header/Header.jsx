@@ -1,8 +1,8 @@
-import React from 'react'
-import './header.css'
-import CallToAction from './CallToAction'
-import ME from '../../assets/me.png'
-import Socials from './Socials'
+import React from "react"
+import "./header.css"
+import CallToAction from "./CallToAction"
+import Me from "../../assets/me.png"
+import Socials from "./Socials"
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
         <Socials />
 
         <div className="me">
-          <img src={ME} alt="me"></img>
+          <img src={Me} alt="me"></img>
         </div>
 
         <a href="#contact" className="scroll-down">Scroll Down</a>

@@ -1,6 +1,6 @@
-import React from 'react'
-import './about.css'
-import ME from "../../assets/me.png"
+import React from "react"
+import "./about.css"
+import Sean from "../../assets/sean.png"
 import { FaAward } from "react-icons/fa"
 import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 import { IoBuildOutline } from "react-icons/io5"
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about-container">
         <div className="about-me">
           <div className="about-me-image">
-            <img src={ME} alt="About" />
+            <img src={Sean} alt="About" />
           </div>
         </div>
         <div className="about-content">
@@ -34,7 +34,11 @@ const About = () => {
               <small>5+ personal projects, always building</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus alias aut possimus, fuga cum hic quibusdam. Minus aut, tempora ipsam assumenda voluptates reprehenderit iusto ducimus molestiae explicabo obcaecati, nemo excepturi!</p>
+          <p>
+            Hey, my name is Sean McGovern and I am a software engineer from Virginia. 
+            I have developed the backends of various APIs, websites, and console applications. 
+            I’m always curious to learn new technologies and build meaningful projects.
+          </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

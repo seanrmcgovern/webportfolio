@@ -1,5 +1,5 @@
-import React from 'react'
-import './skills.css'
+import React from "react"
+import "./skills.css"
 import { SiCheckmarx } from "react-icons/si"
 
 const Skills = () => {
@@ -58,20 +58,6 @@ const Skills = () => {
               <SiCheckmarx className="skills-details-icon"/>
               <div>
                 <h4>Vue</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="skills-details">
-              <SiCheckmarx className="skills-details-icon"/>
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="skills-details">
-              <SiCheckmarx className="skills-details-icon"/>
-              <div>
-                <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

@@ -30,7 +30,7 @@ footer a {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 4rem;
+  margin: 0 auto 3rem;
 }
 
 .footer-socials a {
@@ -46,6 +46,10 @@ footer a {
   background: transparent;
   color: var(--color-bg);
   border-color: var(--color-bg);
+}
+
+.footer-attributions {
+  margin-bottom: 4rem;
 }
 
 /* MEDIA QUERIES : SMALL DEVICES */

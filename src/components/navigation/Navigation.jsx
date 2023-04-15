@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import './navigation.css'
-import { BiHomeAlt, BiMessageSquareDetail} from 'react-icons/bi'
-import { AiOutlineUser } from 'react-icons/ai'
-import { CgWorkAlt } from 'react-icons/cg'
-import { HiCode } from 'react-icons/hi'
-import { BsGear } from 'react-icons/bs'
-import { HiOutlineSquares2X2 } from 'react-icons/hi2'
+import React, { useState } from "react"
+import "./navigation.css"
+import { BiHomeAlt, BiMessageSquareDetail} from "react-icons/bi"
+import { AiOutlineUser } from "react-icons/ai"
+import { CgWorkAlt } from "react-icons/cg"
+import { HiCode } from "react-icons/hi"
+import { BsGear } from "react-icons/bs"
+import { HiOutlineSquares2X2 } from "react-icons/hi2"
 
 const Navigation = () => {
 
