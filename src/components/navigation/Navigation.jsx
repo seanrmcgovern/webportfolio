@@ -1,10 +1,9 @@
 import React, { useState } from "react"
 import "./navigation.css"
-import { BiHomeAlt, BiMessageSquareDetail} from "react-icons/bi"
+import { BiHomeAlt } from "react-icons/bi"
 import { AiOutlineUser } from "react-icons/ai"
 import { CgWorkAlt } from "react-icons/cg"
 import { HiCode } from "react-icons/hi"
-import { BsGear } from "react-icons/bs"
 import { HiOutlineSquares2X2 } from "react-icons/hi2"
 
 const Navigation = () => {
@@ -17,9 +16,8 @@ const Navigation = () => {
       <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><AiOutlineUser /></a>
       <a href="#skills" onClick={() => setActiveNav("#skills")} className={activeNav === "#skills" ? "active" : ""}><HiCode /></a>
       <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><CgWorkAlt /></a>
-      <a href="#services" onClick={() => setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}><BsGear /></a>
       <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? "active" : ""}><HiOutlineSquares2X2 /></a>
-      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><BiMessageSquareDetail /></a>
+      {/* <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><BiMessageSquareDetail /></a> */}
     </nav>
   )
 }

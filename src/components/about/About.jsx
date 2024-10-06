@@ -1,6 +1,6 @@
 import React from "react"
 import "./about.css"
-import Sean from "../../assets/sean.png"
+import Me from "../../assets/me.png"
 import { FaAward } from "react-icons/fa"
 import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 import { IoBuildOutline } from "react-icons/io5"
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about-container">
         <div className="about-me">
           <div className="about-me-image">
-            <img src={Sean} alt="About" />
+            <img src={Me} alt="About" />
           </div>
         </div>
         <div className="about-content">
@@ -21,7 +21,7 @@ const About = () => {
             <article className="about-card">
               <FaAward className="about-icon"/>
               <h5>Experience</h5>
-              <small>2+ years working in Software Development</small>
+              <small>3+ years working in Software Development</small>
             </article>
             <article className="about-card">
               <AiOutlineFundProjectionScreen className="about-icon"/>
@@ -31,15 +31,15 @@ const About = () => {
             <article className="about-card">
               <IoBuildOutline className="about-icon"/>
               <h5>Passion</h5>
-              <small>5+ personal projects, always building</small>
+              <small>Committed to ABC (Always Be Coding)</small>
             </article>
           </div>
           <p>
             Hey, my name is Sean McGovern and I am a software engineer from Virginia. 
-            I have developed the backends of various APIs, websites, and console applications. 
-            I’m always curious to learn new technologies and build meaningful projects.
+            I have developed the backends of various APIs, websites, and applications. 
+            I’m always pumped to learn new technologies and build meaningful products.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          {/* <a href="#contact" className="btn btn-primary">Let's Talk</a> */}
         </div>
       </div>
     </section>

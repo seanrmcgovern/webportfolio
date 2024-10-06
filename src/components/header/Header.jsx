@@ -1,7 +1,7 @@
 import React from "react"
 import "./header.css"
 import CallToAction from "./CallToAction"
-import Me from "../../assets/me.png"
+import Sean from "../../assets/sean.png"
 import Socials from "./Socials"
 
 const Header = () => {
@@ -15,10 +15,10 @@ const Header = () => {
         <Socials />
 
         <div className="me">
-          <img src={Me} alt="me"></img>
+          <img src={Sean} alt="me"></img>
         </div>
 
-        <a href="#contact" className="scroll-down">Scroll Down</a>
+        <a href="#portfolio" className="scroll-down">Scroll Down</a>
       </div>
     </header>
   )
